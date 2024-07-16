@@ -32,8 +32,6 @@ We use the max() to find the opportunity cost because if the number of bikes mov
 It is worth repeating, $R_{i,j}$ and $O_{i,j}$ are measured in BIKES. The logical next step is to multiply the $(R_{i,j} - O_{i,j})$ by a dollar amount, A.
 A = constant, avg rev per bike use.
 
-
-Next, we will determine the cost of a movement.
 $M_{i,j}$ is defined as the cost of one movement of bikes from i to j. Again, this is a cost per movement, NOT the cost per bike moved.
 $M_{i,j} = [min (1, B_{ij})] * C$
 We use a min(), so that if $B_{i,j}$ is zero, the cost is zero, and if Bij is greater than zero, there is one movement (there is no limit to bikes per truck in our problem)
