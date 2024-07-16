@@ -1,5 +1,5 @@
 # Bike-Sharing-Ops-Decision-Analytics
-Creating a Linear Program (LP) that coordinates bike movements for each hour of the day given an initial state and demand.
+Creating a Linear Program (LP) that coordinates bike movements for each hour of the day given an initial state and demand using gurobi and python.
 
 # Description of problem and LP
 Our model will take the initial states and forecasted demand as inputs and output the optimal bike movements in order to maximize our profit function.
